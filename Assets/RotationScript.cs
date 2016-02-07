@@ -12,6 +12,7 @@ public class RotationScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.RotateAround(directionalLight.transform.position, Vector3.up, 1);
+		transform.RotateAround(directionalLight.transform.position, Vector3.up, 0.5f);
+		transform.Rotate(0, 2, 0);
 	}
 }
